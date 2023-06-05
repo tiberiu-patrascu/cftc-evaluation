@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+/* largeur scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+    height: auto;
+}
+
+/* background scrollbar */
+::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+/* scrollbar */
+::-webkit-scrollbar-thumb {
+    background: #114F9F;
+    border-radius: 4px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.table thead tr th {
+    background-color: #114F9F;
+    color: #fff;
+    cursor: pointer;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.table tbody tr:nth-child(2n+1) td {
+    background-color: #cccccc60;
+}
+
+.console-msg p {
+    color: #fff;
+    font-size: 1.3em;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.btn-danger a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-warning a {
+    color: #000;
+    text-decoration: none;
+}
+
+.btn-order {
+    border: none;
+}
+
+.btn-order.active {
+    background-color: red;
+    color: #fff;
+}
+
+.btn a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.span-delete {
+    font-weight: bold;
+    text-decoration: underline;
+}
